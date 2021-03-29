@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+
+<body>
+    <h2>Szállítási cím módosítása</h2>
+    <fieldset>
+        <form name="adatok">
+            <label for="nev">Név</label><label class="csillag" for="nev"> *</label><br>
+            <input type="text" name="nev" id="nev" required><br>
+            <label for="telefonszam">Telefonszám</label><label class="csillag" for="telefonszam"> *</label><br>
+            <input id="telefon" type="tel" name="telefonszam" list="telefonszam" required>
+            <datalist id="telefonszam">
+                <option value="36">
+            </datalist>
+            <input type="tel" name="telefonszam" id="telefonszam" required><br>
+            <label for="iranyitoszam">Irányítószám</label><label class="csillag" for="iranyitoszam"> *</label><br>
+            <input type="text" name="iranyitoszam" id="iranyitoszam" required><br>
+            <label for="varos">Város</label><label class="csillag" for="varos"> *</label><br>
+            <input type="text" name="varos" list="varos" required></label>
+            <datalist id="varos">
+                <option value="Debrecen">
+            </datalist><br>
+            <label for="orszag">Ország</label><label class="csillag" for="orszag"> *</label><br>
+            <input type="text" name="orszag" list="orszag" required><br>
+            <datalist id="orszag"><br>
+                <option value="Magyarország">
+            </datalist>
+            <label for="cim">Cím</label><label class="csillag" for="cim"> *</label><br>
+            <input type="text" name="cim" id="cim" required><br><br>
+            <input type="submit" name="mentes" id="mentes" value="Mentés"><br>
+        </form>
+    </fieldset>
+</body>
+
+</html>

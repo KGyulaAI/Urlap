@@ -1,0 +1,19 @@
+input[type=submit] {
+    background-color: green;
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 32px;
+    margin: auto;
+    cursor: pointer;
+    width: 100%;
+}
+
+.csillag {
+    color: red;
+}
+
+#telefon {
+    width: 2cm;
+}
